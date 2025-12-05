@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", () => {document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", () => {
   const tabs = document.querySelectorAll(".restaurant-tab");
   const list = document.getElementById("restaurantItems");
 
@@ -84,5 +84,3 @@ document.addEventListener("DOMContentLoaded", () => {document.addEventListener("
 
   renderCategory("dishes");
 });
-
-
